@@ -1,0 +1,110 @@
+
+% Seleciona o idioma do documento (conforme pacotes do babel)
+%\selectlanguage{english}
+\selectlanguage{brazil}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+% \pretextual
+
+% ---
+% Capa
+% ---
+\imprimircapa
+% ---
+
+% ---
+% Folha de rosto
+% (o * indica que haverá a ficha bibliográfica)
+% ---
+\imprimirfolhaderosto*
+% RESUMO
+% ---
+
+% resumo na língua vernácula (obrigatório)
+\setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
+\begin{resumo}
+ A ultima semana de aula foi a semana de finalização de algumas disciplinas onde as ultimas provas e trabalhos foram realizados assim durante essa semana todos os esforços foram direcionados a realização dessas atividades. As atividades foram realizadas através de estudos realizados dentro e fora da institução onde foram ultilizados materiais encontrados na internet, inteligências artificiais e os colegas de classe.
+
+ \noindent
+ \textbf{Palavras-chaves}: Estudo, Aedes, Arquitetura de computadores.
+\end{resumo}
+% ---
+
+% ---
+% inserir lista de ilustrações
+% ---
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+\cleardoublepage
+% ---
+
+% ---
+% inserir lista de tabelas
+% ---
+\pdfbookmark[0]{\listtablename}{lot}
+\listoftables*
+\cleardoublepage
+% ---
+
+% ---
+
+% ---
+
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+% ---
+
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+
+% ----------------------------------------------------------
+% Introdução (exemplo de capítulo sem numeração, mas presente no Sumário)
+% ----------------------------------------------------------
+\chapter*[Introdução]{Introdução}
+\addcontentsline{toc}{chapter}{Introdução}
+
+Durante todo o período diversas atividades foram realizadas em todas as disciplinas, durante a ultima semana algumas já haviam terminado, no entanto duas em especial ainda não, a disciplina de AEDES, Algoritmos e estrutura de dados ainda necessitava da realização da ultima prova e o professor também não havia disponibilizado as notas dos exercícios realizados em sala o que gerou certa angústia em todos os alunos, a disciplina de Arquitetura de computadores 1 também necessitava da realização da ultima prova e da apresentação do trabalho final da disciplina que constutia-se na criação de um processador básico que realizava algumas instruções. Então a elaboração desse relatório consiste em como foi feito o estudo para as provas finais das disciplinas e como foi realizado o trabalho final.
+
+
+% ----------------------------------------------------------
+% PARTE - preparação da pesquisa
+% ----------------------------------------------------------
+\part{Organização}
+Na ultima semana as provas que deveriam ser realizadas estavam marcadas para os dias 13 de dezembro, quarta feira e 14 de dezembro quinta feira, a prova de quarta era a da disciplina de arquitetura de computadores, estava confiante para essa prova pois a matéria consistia basicamente no trabalho final, que era a crianção do processador e como este trabalho era em grupo facilitou ainda mais. Rapidamente eu e meu grupo finalizamos o trabalho então na manhã da segunda feira dia 11 e na terça dia 12 optei por revisas a matéria da prova e o trabalho. 
+
+Para a prova de Aedes no dia 14 as coisas não estavam tão tranquilas, uma vez que como já foi dito anteriormente o professor não disponibilizou a notas das atividades realizadas em sala de aula e essas atividades representavam metade da nota total do semestre, a segunda prova da disciplina tabmém foi um desastre, onde boa parte da turma zerou e ninguém coseguiu se quer 50 por cento da nota, então o peso para a ultima prova estava gigantesco. então nas noites do dia 11, 12 e 13 e na manhã do dia 14 foquei inteiramente nessa prova, as matérias ão estavam completamente sob o meu domínio e a todo momento me surgia dúvidas, então ultilizei muito do chat-gpt para tentar soluciona-las e quando ainda sim não conseguia recorria aos colegas de classe, estudei muito durante todo esse período mas ainda sim no dia 14 na hora da prova não estava nem um pouco confiante.
+
+Por fim a apresentação do trabalho final de arquitetura foi realizada no dia 18, segunda feira, como o processador já estava finalizado há muito tempo, a apresentação foi tranquila e sem nenhum contra tempo.
+% ----------------------------------------------------------
+% 
+% ----------------------------------------------------------
+\part{Resultados}
+
+Não há como dizer como foram todos os resultados, pois até o momento a nota da disciplina de Aedes não foi lançada, os exercicios e a prova. Para a disciplina de arquitetura pode-se dizer que os resultados foram satisfatórios, para o trabalho final eu e meu grupo tivemos a nota máxima, 25/25 e para a prova eu tive 16,8/20, mas como não recebi a prova não sei dizer em que pontos eu falhei.
+% ---
+% Capitulo de revisão de literatura
+% ---
+
+% ---
+% Conclusão
+% ---
+\chapter{Conclusão}
+% ---
+Dado que os resultados ainda não puderam ser analizados por completo, pode-se considerar que eles foram parcialmente satisfatórios, uma vez que os dados que puderam ser analizados se mostraram altos.
+
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+%\bibliography{abntex2-modelo-references}
